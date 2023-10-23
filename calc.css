@@ -1,0 +1,44 @@
+body {
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 400px;
+  height: auto;
+  margin: 100px;
+  background-color: gray;
+}
+
+#result {
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  text-align: end;
+  padding-right: 10px;
+}
+
+.buttonType1,
+.buttonType2,
+button:hover {
+  cursor: pointer;
+}
+
+.buttonType1,
+.buttonType2,
+button {
+  border-radius: 0.7vh;
+}
+
+.buttonType1 button {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.buttonType2 button {
+  width: 205px;
+  height: 40px;
+  font-size: 20px;
+}
